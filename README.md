@@ -23,19 +23,47 @@
 
 # Contributions to Activities of the SDLC
 
-# 1. Planning
+## 1. Planning
 
-# 2. Analysis
+### [Crowdsourcing Software Development: Task Assignment Using PDDL Artificial Intelligence Planning](https://s3.ap-northeast-2.amazonaws.com/journal-home/journal/jips/fullText/66/jips_531.pdf)
 
-# 3. Design
+> The crowdsourcing software development (CSD) is growing rapidly in the open call format in a competitive environment. In CSD, tasks are posted on a web-based CSD platform for CSD workers to compete for the task and win rewards. Task searching and assigning are very important aspects of the CSD environment because tasks posted on different platforms are in hundreds. To search and evaluate a thousand submissions on the platform are very difficult and time-consuming process for both the developer and platform. However, there are many other problems that are affecting CSD quality and reliability of CSD workers to assign the task which include the required knowledge, large participation, time complexity and incentive motivations. In order to attract the right person for the right task, the execution of action plans will help the CSD platform as well the CSD worker for the best matching with their tasks. This study formalized the task assignment method by utilizing different situations in a CSD competition-based environment in artificial intelligence (AI) planning. The results from this study suggested that assigning the task has many challenges whenever there are undefined conditions, especially in a competitive environment. Our main focus is to evaluate the AI automated planning to provide the best possible solution to matching the CSD worker with their personality type.
 
-# 4. Implementation
+### [Towards effective AI-powered agile project management](https://ieeexplore.ieee.org/abstract/document/8805739)
 
-# 5. Testing & Integration
+> The rise of Artificial intelligence (AI) has the potential to significantly transform the practice of project management. Project management has a large socio-technical element with many uncertainties arising from variability in human aspects, e.g. customers' needs, developers' performance and team dynamics. AI can assist project managers and team members by automating repetitive, high-volume tasks to enable project analytics for estimation and risk prediction, providing actionable recommendations, and even making decisions. AI is potentially a game changer for project management in helping to accelerate productivity and increase project success rates. In this paper, we propose a framework where AI technologies can be leveraged to offer support for managing agile projects, which have become increasingly popular in the industry.
+
+## 2. Analysis
+
+## [AI4SE: Semi-Automated Development of Textual Requirements: Combined Natural Language Processing and Multi-Domain Semantic Approach](https://www.researchgate.net/publication/363761771_AI4SE_Semi-Automated_Development_of_Textual_Requirements_Combined_Natural_Language_Processing_and_Multi-Domain_Semantic_Approach)
+
+> Modern engineering systems are nearly always designed, built, and operated by teams of people + automation. A key component in bringing this capability together is the ability to write and manage textual requirements. This presentation explains how multi-domain semantic modeling and natural language processing can work together to assist with the development of textual requirements, and in the validation and verification of individual (and groups) of textual requirements. We introduce a software prototype called FLOOR (framework for linking ontology objects and textual requirements) and demonstrate its use on textual requirements taken from the building construction industry
+
+## 3. Design
+
+## 4. Implementation
+
+### [AI in software engineering at Facebook](https://ieeexplore.ieee.org/document/9360852)
+
+> How can artificial intelligence help software engineers better do their jobs and advance the state of the practice? We describe three productivity tools that learn patterns from software artifacts: code search using natural language, code recommendation, and automatic bug fixing.
+
+### [Self-collaboration Code Generation via ChatGPT](https://arxiv.org/abs/2304.07590)
+
+> Although Large Language Models (LLMs) have demonstrated remarkable code-generation ability, they still struggle with complex tasks. In real-world software development, humans usually tackle complex tasks through collaborative teamwork, a strategy that significantly controls development complexity and enhances software quality. Inspired by this, we present a self-collaboration framework for code generation employing LLMs, exemplified by ChatGPT. Specifically, through role instructions, 1) Multiple LLMs act as distinct ``experts'', each responsible for a specific subtask within a complex task; 2) Specify the way to collaborate and interact, so that different roles form a virtual team to facilitate each other's work, ultimately the virtual team addresses code generation tasks collaboratively without the need for human intervention. To effectively organize and manage this virtual team, we incorporate software-development methodology into the framework. Thus, we assemble an elementary team consisting of three ChatGPT roles (i.e., analyst, coder, and tester) responsible for software development's analysis, coding, and testing stages. We conduct comprehensive experiments on various code-generation benchmarks. Experimental results indicate that self-collaboration code generation relatively improves 29.9%-47.1% Pass@1 compared to direct code generation, achieving state-of-the-art performance and even surpassing GPT-4. Moreover, we showcase that self-collaboration could potentially enable LLMs to efficiently handle complex real-world tasks that are not readily solved by direct code generation, as evidenced in case study. 
+
+### [Large Language Models are Few-Shot Summarizers: Multi-Intent Comment Generation via In-Context Learning](https://arxiv.org/abs/2304.11384)
+
+> Code comment generation aims at generating natural language descriptions for a code snippet to facilitate developers' program comprehension activities. Despite being studied for a long time, a bottleneck for existing approaches is that given a code snippet, they can only generate one comment while developers usually need to know information from diverse perspectives such as what is the functionality of this code snippet and how to use it. To tackle this limitation, this study empirically investigates the feasibility of utilizing large language models (LLMs) to generate comments that can fulfill developers' diverse intents. Our intuition is based on the facts that (1) the code and its pairwise comment are used during the pre-training process of LLMs to build the semantic connection between the natural language and programming language, and (2) comments in the real-world projects, which are collected for the pre-training, usually contain different developers' intents. We thus postulate that the LLMs can already understand the code from different perspectives after the pre-training. Indeed, experiments on two large-scale datasets demonstrate the rationale of our insights: by adopting the in-context learning paradigm and giving adequate prompts to the LLM (e.g., providing it with ten or more examples), the LLM can significantly outperform a state-of-the-art supervised learning approach on generating comments with multiple intents. Results also show that customized strategies for constructing the prompts and post-processing strategies for reranking the results can both boost the LLM's performances, which shed light on future research directions for using LLMs to achieve comment generation. 
+
+## 5. Testing & Integration
 
 ## [Automated Unit Test Improvement using Large Language Models at Meta](https://arxiv.org/abs/2402.09171)
 
 > This paper describes Meta's TestGen-LLM tool, which uses LLMs to automatically improve existing human-written tests. TestGen-LLM verifies that its generated test classes successfully clear a set of filters that assure measurable improvement over the original test suite, thereby eliminating problems due to LLM hallucination. We describe the deployment of TestGen-LLM at Meta test-a-thons for the Instagram and Facebook platforms. In an evaluation on Reels and Stories products for Instagram, 75% of TestGen-LLM's test cases built correctly, 57% passed reliably, and 25% increased coverage. During Meta's Instagram and Facebook test-a-thons, it improved 11.5% of all classes to which it was applied, with 73% of its recommendations being accepted for production deployment by Meta software engineers. We believe this is the first report on industrial scale deployment of LLM-generated code backed by such assurances of code improvement. 
 
-# 6. Maintenance
+## 6. Maintenance
+
+# Prompt Engineering
+
+- [https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api](Best practices for prompt engineering with OpenAI)
 
