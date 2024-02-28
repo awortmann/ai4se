@@ -6,14 +6,8 @@
 
 - [./01.Planning.md](1. Planning)
 - [./02.Analysis.md](2. Analysis)
-
-## 3. Design
-
-## 4. Implementation
-
-### [AI in software engineering at Facebook](https://ieeexplore.ieee.org/document/9360852)
-
-> How can artificial intelligence help software engineers better do their jobs and advance the state of the practice? We describe three productivity tools that learn patterns from software artifacts: code search using natural language, code recommendation, and automatic bug fixing.
+- [./03.Design.md](3. Design)
+- [./04.Implementation.md](4. Implementation)
 
 ### [Self-collaboration Code Generation via ChatGPT](https://arxiv.org/abs/2304.07590)
 
