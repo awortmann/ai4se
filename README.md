@@ -4,13 +4,8 @@
 
 # Contributions to Activities of the SDLC
 
-- [01.SDLC_Planning.md](1. Planning)
-
-## 2. Analysis
-
-## [AI4SE: Semi-Automated Development of Textual Requirements: Combined Natural Language Processing and Multi-Domain Semantic Approach](https://www.researchgate.net/publication/363761771_AI4SE_Semi-Automated_Development_of_Textual_Requirements_Combined_Natural_Language_Processing_and_Multi-Domain_Semantic_Approach)
-
-> Modern engineering systems are nearly always designed, built, and operated by teams of people + automation. A key component in bringing this capability together is the ability to write and manage textual requirements. This presentation explains how multi-domain semantic modeling and natural language processing can work together to assist with the development of textual requirements, and in the validation and verification of individual (and groups) of textual requirements. We introduce a software prototype called FLOOR (framework for linking ontology objects and textual requirements) and demonstrate its use on textual requirements taken from the building construction industry
+- [./01.Planning.md](1. Planning)
+- [./02.Analysis.md](2. Analysis)
 
 ## 3. Design
 
